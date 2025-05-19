@@ -1,0 +1,67 @@
+.servicos{
+  display: grid;
+  justify-content: center;
+  padding-top: 88px;
+  padding-bottom: 120px;
+  padding-inline: 120px;
+  gap: 56px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: var(--gray-100);
+ 
+}
+
+.servicos-ajuda{
+  
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  span{
+    color: var(--vermelho);
+    font: var(--subtitle);
+  }
+  h3{
+    font: var(--title-md);
+    color: var(--gray-600);
+  }
+  
+}
+
+.figure-servicos{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  width: 888px;
+  height: 155px;
+  
+  
+ figure{ 
+  
+  display: grid;
+  gap: 30px;
+  padding: 20px;
+  
+ }
+  
+ figcaption{
+   h3{ 
+   font: var(--title-sm); 
+   color: var(--gray-600);
+   
+  }
+  p{
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+ }
+}
+ 
+
+
+
+
+
+
