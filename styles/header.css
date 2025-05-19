@@ -1,0 +1,83 @@
+.perfil{
+  display: grid;
+  flex-direction: column;
+  justify-items: center;
+  gap: 80px;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-position: center; 
+ 
+}
+
+.perfil-img{
+ padding-top: 150px;
+  img{
+    width: 150px;
+    border-radius: 50%;
+  }
+}
+
+.perfil-descricao{
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+
+  h3{
+    font: var(--subtitle);
+    color: var(--gray-500);
+
+    strong{
+      color: var(--vermelho);
+    }
+  }
+
+   h1{
+    font: var(--title-lg);
+    color: var(--gray-600);
+   }
+
+   p{
+    font: var(--text-sm-maven);
+    color: var(--gray-400);
+   }
+  
+}
+
+.perfil-conhecimento{
+   ul{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    column-gap: 30px;   
+    justify-items: center;  
+    justify-content: center;  
+    padding-bottom: 90px;
+   }
+
+   li{
+   display: flex;
+   align-items: center;
+   padding-block: 8px;
+   padding-inline: 16px;
+   background-color: var(--gray-300);
+   border-radius: 50px;
+   font: var(--text-md-maven);
+   color: var(--gray-500);
+   }
+
+}
+
+.flecha-perfil{
+  img{
+    display: flex;
+    width: 32px;
+    padding-bottom: 50px;
+   
+
+  }
+}
+
+
+
+
+
+
